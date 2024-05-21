@@ -1,3 +1,9 @@
 {
-  "welcome": "Willkommen bei OCCS"
+  "welcome": "Willkommen bei OCCS",
+  "pages": {
+    "sign_in": {
+      "title": "Anmelden",
+      "description": "Wir benötigen Ihren Benutzernamen und Ihr Passwort, um sich anzumelden"
+    }
+  }
 }

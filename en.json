@@ -1,3 +1,9 @@
 {
-  "welcome": "Welcome to OCCS"
+  "welcome": "Welcome to OCCS",
+  "pages": {
+    "sign_in": {
+      "title": "Sign in",
+      "description": "We need your username and password to Sign In"
+    }
+  }
 }
