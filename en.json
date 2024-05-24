@@ -1,9 +1,53 @@
 {
-  "welcome": "Welcome to OCCS",
+  "inputs": {
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "password_confirmation": "Confirm Password",
+    "account": "Account",
+    "language": "Language",
+    "remember_me": "Remember me"
+  },
+  "links": {
+    "forgot_password": "Forgot password?",
+    "resend_otp": "Resend OTP"
+  },
+  "buttons": {
+    "login": "Login",
+    "send_otp": "Send OTP",
+    "verify": "Verify"
+  },
   "pages": {
-    "sign_in": {
-      "title": "Sign in",
-      "description": "We need your username and password to Sign In"
+    "auth": {
+      "sign_in": {
+        "title": "Sign in",
+        "description": "We need your username and password to Sign In"
+      },
+      "forgot_password": {
+        "title": "Forgot password",
+        "description": "Type your authorised email address to receive reset password link."
+      },
+      "verify_otp": {
+        "title": "Verify OTP",
+        "description": "Enter the passcode you just received on your email address ending with {{email}}"
+      },
+      "create_password": {
+        "title": "Create password",
+        "description": "Type your new strong password. Your password must include: One capital letter & one small letter at least, One special character & Minimum 8 digits long."
+      }
+    },
+    "dashboard": {
+      "title": "Logged In Successfully!",
+      "description": "You are now logged in to your account."
+    }
+  },
+  "validations": {
+    "security": {
+      "invalid_username": "The username is invalid",
+      "invalid_email": "The email is invalid",
+      "incorrect_password": "The password is incorrect",
+      "invalid_otp": "The OTP is invalid",
+      "password_mismatch": "The password and confirm password do not match"
     }
   }
 }

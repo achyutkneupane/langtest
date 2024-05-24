@@ -1,9 +1,53 @@
 {
-  "welcome": "Willkommen bei OCCS",
+  "inputs": {
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "password_confirmation": "Passwort bestätigen",
+    "account": "Konto",
+    "language": "Sprache",
+    "remember_me": "Angemeldet bleiben"
+  },
+  "links": {
+    "forgot_password": "Passwort vergessen?",
+    "resend_otp": "OTP erneut senden"
+  },
+  "buttons": {
+    "login": "Anmelden",
+    "send_otp": "OTP senden",
+    "verify": "Überprüfen"
+  },
   "pages": {
-    "sign_in": {
-      "title": "Anmelden",
-      "description": "Wir benötigen Ihren Benutzernamen und Ihr Passwort, um sich anzumelden"
+    "auth": {
+      "sign_in": {
+        "title": "Anmelden",
+        "description": "Wir benötigen Ihren Benutzernamen und Ihr Passwort, um sich anzumelden"
+      },
+      "forgot_password": {
+        "title": "Passwort vergessen",
+        "description": "Geben Sie Ihre autorisierte E-Mail-Adresse ein, um den Link zum Zurücksetzen des Passworts zu erhalten."
+      },
+      "verify_otp": {
+        "title": "OTP überprüfen",
+        "description": "Geben Sie den Passcode ein, den Sie gerade an Ihre E-Mail-Adresse mit der Endung {{email}} erhalten haben"
+      },
+      "create_password": {
+        "title": "Passwort erstellen",
+        "description": "Geben Sie Ihr neues starkes Passwort ein. Ihr Passwort muss enthalten: Mindestens einen Großbuchstaben und einen Kleinbuchstaben, ein Sonderzeichen und mindestens 8 Zeichen lang sein."
+      }
+    },
+    "dashboard": {
+      "title": "Erfolgreich eingeloggt!",
+      "description": "Sie sind jetzt in Ihrem Konto angemeldet."
+    }
+  },
+  "validations": {
+    "security": {
+      "invalid_username": "Der Benutzername ist ungültig",
+      "invalid_email": "Die E-Mail ist ungültig",
+      "incorrect_password": "Das Passwort ist falsch",
+      "invalid_otp": "Das OTP ist ungültig",
+      "password_mismatch": "Das Passwort und das Bestätigungspasswort stimmen nicht überein"
     }
   }
 }
