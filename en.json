@@ -15,7 +15,8 @@
   "buttons": {
     "login": "Login",
     "send_otp": "Send OTP",
-    "verify": "Verify"
+    "verify": "Verify",
+    "logout": "Logout"
   },
   "pages": {
     "auth": {
@@ -43,11 +44,20 @@
   },
   "validations": {
     "security": {
-      "invalid_username": "The username is invalid",
-      "invalid_email": "The email is invalid",
-      "incorrect_password": "The password is incorrect",
-      "invalid_otp": "The OTP is invalid",
       "password_mismatch": "The password and confirm password do not match"
+    }
+  },
+  "security": {
+    "username_required": "Username is required",
+    "password_required": "Password is required",
+    "email_required": "Email is required",
+    "otp_required": "OTP is required",
+    "invalid_username": "The username is invalid",
+    "invalid_email": "The email is invalid",
+    "invalid_otp": "The OTP is invalid",
+    "password_min_length": "The password must be at least 8 characters long",
+    "login": {
+      "incorrect_password": "The password is incorrect"
     }
   }
 }
