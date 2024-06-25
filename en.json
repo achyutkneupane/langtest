@@ -10,7 +10,8 @@
   },
   "links": {
     "forgot_password": "Forgot password?",
-    "resend_otp": "Resend OTP"
+    "resend_otp": "Resend OTP",
+    "different_account": "Signin with different account"
   },
   "buttons": {
     "login": "Login",
@@ -35,14 +36,28 @@
       "create_password": {
         "title": "Create password",
         "description": "Type your new strong password. Your password must include: One capital letter & one small letter at least, One special character & Minimum 8 digits long."
+      },
+      "select_account": {
+        "title": "Welcome Back",
+        "description": "We are excited to have your back. Log in now and access your account."
       }
     },
     "dashboard": {
       "title": "Logged In Successfully!",
       "description": "You are now logged in to your account."
+    },
+    "four_zero_four": {
+      "title": "404",
+      "description": "The page you are looking for does not exist."
     }
   },
   "validations": {
+    "usergroup": {
+      "invalid_id": "The user group ID is invalid",
+      "empty_user_group_name": "The user group name is required",
+      "empty_user_group_type": "The user group type is required",
+      "invalid_user_group_type": "The user group type is invalid"
+    },
     "security": {
       "password_mismatch": "The password and confirm password do not match"
     }
@@ -56,8 +71,87 @@
     "invalid_email": "The email is invalid",
     "invalid_otp": "The OTP is invalid",
     "password_min_length": "The password must be at least 8 characters long",
+    "access_token_invalid": "The access token is invalid",
+    "access_token_required": "The access token is required",
+    "refresh_token_required": "The refresh token is required",
+    "password_updated": "The password has been updated successfully",
+    "failed_invalidating_otp": "Failed to validate OTP",
+    "new_password_created": "The new password has been created successfully",
+    "verify_otp_failed": "Failed to verify OTP",
+    "user_not_found": "The user was not found",
+    "bad_credentials": "The credentials are invalid",
     "login": {
-      "incorrect_password": "The password is incorrect"
+      "incorrect_password": "The password is incorrect",
+      "invalid_username": "The username is invalid"
+    },
+    "forgot_password": {
+      "otp_created": "The OTP has been sent to your email address",
+      "failed_sending_email": "Failed to send the email"
+    },
+    "otp": {
+      "password_updated": "The password has been updated successfully",
+      "failed_invalidating_otp": "Failed to validate OTP",
+      "expired": "The OTP has expired"
+    },
+    "password": {
+      "old_password_not_allowed": "The old password is not allowed",
+      "user_does_not_exists": "The user does not exist",
+      "password_not_strong_enough": "The password is not strong enough"
+
     }
+  },
+  "user": {
+    "password_update": {
+      "unsupported_user": "The user is not supported",
+      "user_does_not_exists": "The user does not exist",
+      "password_not_strong_enough": "The password is not strong enough",
+      "failed_hashing_password": "Failed to hash the password"
+    },
+    "validations": {
+      "empty_id": "The user ID is required",
+      "empty_firstname": "The first name is required",
+      "empty_lastname": "The last name is required",
+      "empty_username": "The username is required",
+      "empty_email": "The email is required",
+      "invalid_email": "The email is invalid",
+      "empty_password": "The password is required",
+      "empty_roles": "The roles are required"
+    },
+    "create": {
+      "success": "The user has been created successfully",
+      "failed": "Failed to create the user"
+    },
+    "edit": {
+      "success": "The user has been updated successfully",
+      "failed": "Failed to update the user"
+    },
+    "delete": {
+      "success": "The user has been deleted successfully",
+      "failed": "Failed to delete the user"
+    }
+  },
+  "usergroup": {
+    "create": {
+      "success": "The user group has been created successfully",
+      "failed": "Failed to create the user group"
+    },
+    "edit": {
+      "success": "The user group has been updated successfully",
+      "failed": "Failed to update the user group"
+    },
+    "delete": {
+      "success": "The user group has been deleted successfully",
+      "failed": "Failed to delete the user group"
+    },
+    "validations": {
+      "empty_id": "The user group ID is required",
+      "empty_user_group_name": "The user group name is required",
+      "empty_user_group_type": "The user group type is required",
+      "invalid_user_group_type": "The user group type is invalid"
+    }
+  },
+  "modules": {
+    "dashboard": "Dashboard",
+    "user-management": "User Management"
   }
 }
